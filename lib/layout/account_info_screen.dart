@@ -120,6 +120,7 @@ class AccountInfoScreen extends StatelessWidget {
                                       to: selectedItem?.name,
                                       amount: int.parse(amountController.text),
                                     );
+                                   amountController.clear();
                                   }
                                 }
                               },
